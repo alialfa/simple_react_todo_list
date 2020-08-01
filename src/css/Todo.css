@@ -1,0 +1,64 @@
+/* Ali_Mongi-L2Task10-TODOapp */
+
+.header {
+  font-family: monospace;
+}
+
+.todo {
+  background-color: silver;
+  display: inline-block;
+  margin-top: 1%;
+  max-height: fit-content;
+  border: solid 2px black;
+  border-radius: 27px;
+}
+
+.todoArea {
+  margin-left: 40px;
+}
+
+/* list of auto generated tasks */
+.taskList {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.taskList li {
+  text-align: left;
+  list-style-position: outside;
+  margin-left: 10px;
+}
+
+.taskRow .taskBtn {
+  margin-top: 10px;
+}
+.taskRow li {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.taskInput {
+  margin-left: 14px;
+}
+
+/* input box properties */
+input[type="text"] {
+  width: 86%;
+  height: 30px;
+  background: blanchedalmond;
+  border: 2px solid #222;
+  color: black;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* main button to add tasks */
+.btnAdd {
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 5px;
+  border-radius: 7px;
+  background-color: darkgreen;
+  color: white;
+}
